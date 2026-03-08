@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 # Add project root to sys.path to allow imports
-sys.path.append(str(Path(__file__).parent))
+sys.path.append(str(Path(__file__).parent.parent.parent.parent))
 
 from src.logger import get_logger
 from src.benchmark_utils import load_benchmark_data, chunk_context, parse_instance_indices
@@ -41,6 +41,9 @@ def main():
     parser = argparse.ArgumentParser(description="Ingest MemoryAgentBench data")
     parser.add_argument("--instance_idx", type=str, default="0", help="Index range (e.g., '0', '0-5', '1,3')")
     parser.add_argument("--chunk_size", type=int, default=850, help="Fallback chunk size")
+    parser.add_argument("--shard", type=str, default="00001",
+                    help="Shard id, e.g. 00001 or 00002")
+
     args = parser.parse_args()
 
     indices = parse_instance_indices(args.instance_idx)

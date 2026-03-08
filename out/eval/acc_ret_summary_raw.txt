@@ -1,0 +1,5 @@
+
+--- [Mechanical Evaluation Result: amem_acc_ret_results_0.json] ---
+Adaptor R1 : Accuracy = 72.00% (36/50)
+Adaptor R2 : Accuracy = 62.00% (31/50)
+Adaptor R3 : Accuracy = 74.00% (37/50)

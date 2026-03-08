@@ -4,3 +4,6 @@ openai>=1.0
 psycopg2-binary>=2.9
 numpy>=1.24
 requests>=2.28
+neo4j>=5.0
+sentence-transformers>=2.0
+chromadb>=0.4.0

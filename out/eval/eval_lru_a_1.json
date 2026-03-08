@@ -1,0 +1,42 @@
+{
+  "dataset": "LRU-A",
+  "instance_idx": 1,
+  "metrics": {
+    "R1": {
+      "fluency": 1,
+      "recall": 0.04,
+      "precision": 0.0,
+      "f1": 0.0,
+      "raw": {
+        "recall_found": 1,
+        "recall_total": 25,
+        "precision_found": 0,
+        "precision_total": 20
+      }
+    },
+    "R2": {
+      "fluency": 1,
+      "recall": 0.4,
+      "precision": 0.0,
+      "f1": 0.0,
+      "raw": {
+        "recall_found": 10,
+        "recall_total": 25,
+        "precision_found": 0,
+        "precision_total": 20
+      }
+    },
+    "R3": {
+      "fluency": 1,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0,
+      "raw": {
+        "recall_found": 0,
+        "recall_total": 25,
+        "precision_found": 0,
+        "precision_total": 20
+      }
+    }
+  }
+}

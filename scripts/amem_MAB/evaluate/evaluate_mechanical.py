@@ -107,9 +107,13 @@ def main():
                         help="Path to results JSON / directory / wildcard")
     parser.add_argument("--instance", type=str, required=True,
                         help="Path to ground truth JSON / Parquet")
-    parser.add_argument("--output", type=str, default="acc_ret_summary_raw.txt",
-                        help="Summary output file (default: acc_ret_summary_raw.txt)")
+    parser.add_argument("--output", type=str, default="out/eval/acc_ret_summary_raw.txt",
+                        help="Summary output file (default: out/eval/acc_ret_summary_raw.txt)")
     args = parser.parse_args()
+
+    # ✅ 确保目录存在
+    output_path = Path(args.output)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
     # 解析 results 文件列表
     results_path = args.results

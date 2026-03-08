@@ -1,0 +1,21 @@
+=== Conflict Resolution Official Evaluation Report (N=1) ===
+
+Inst  | Adaptor  | ExactMatch | SubMatch   | F1 Score  
+-------------------------------------------------------
+1     | R1       |      0.00% |     10.00% |     0.0049
+1     | R2       |      0.00% |     14.00% |     0.0031
+1     | R3       |      0.00% |     12.00% |     0.0024
+
+## Global Summary
+Adaptor R1:
+  - Avg Exact Match: 0.00%
+  - Avg SubMatch:    10.00%
+  - Avg F1 Score:    0.0049
+Adaptor R2:
+  - Avg Exact Match: 0.00%
+  - Avg SubMatch:    14.00%
+  - Avg F1 Score:    0.0031
+Adaptor R3:
+  - Avg Exact Match: 0.00%
+  - Avg SubMatch:    12.00%
+  - Avg F1 Score:    0.0024

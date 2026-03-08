@@ -1,0 +1,1994 @@
+{
+  "dataset": "Accurate_Retrieval",
+  "instance_idx": 0,
+  "summary": {
+    "R1": {
+      "accuracy": 0.88,
+      "total_questions": 50,
+      "avg_tokens": 21278.98
+    },
+    "R2": {
+      "accuracy": 0.9,
+      "total_questions": 50,
+      "avg_tokens": 172318.24
+    },
+    "R3": {
+      "accuracy": 0.88,
+      "total_questions": 50,
+      "avg_tokens": 596999.58 
+    }
+  },
+  "details": {
+    "R1": [
+      {
+        "question": "In what country is Normandy located?",
+        "prediction": "Normandy is located in France.",
+        "reference": [
+          "France",
+          "France",
+          "France",
+          "France"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了标准答案中的核心信息：诺曼底位于法国。",
+        "tokens": 859,
+        "steps": 1
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "prediction": "根据上下文，诺曼人（Normans）在10世纪和11世纪存在于诺曼底地区，其独特的文化和民族身份在10世纪上半叶初步形成，并在此后的几个世纪中持续发展。",
+        "reference": [
+          "10th and 11th centuries",
+          "in the 10th and 11th centuries",
+          "10th and 11th centuries",
+          "10th and 11th centuries"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（10世纪和11世纪）与标准答案完全一致，且提供了更详细的背景信息。",
+        "tokens": 1711,
+        "steps": 1
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "prediction": "根据上下文，诺尔斯人（Norse）起源于斯堪的纳维亚地区，具体包括丹麦、挪威和冰岛。此外，相关描述中也提到了可能来自瑞典的移民。\n\n（依据来源：[1] 和 [3]）",
+        "reference": [
+          "Denmark, Iceland and Norway",
+          "Denmark, Iceland and Norway",
+          "Denmark, Iceland and Norway",
+          "Denmark, Iceland and Norway"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（丹麦、挪威、冰岛）与标准答案完全一致，额外的瑞典信息属于更详细的补充，不影响核心准确性。",
+        "tokens": 2524,
+        "steps": 1
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "prediction": "根据上下文，诺曼人的领袖是罗洛（Rollo）。他率领来自丹麦、冰岛和挪威的诺斯人（维京人），并在911年与西法兰克国王查理三世签订条约，建立了诺曼底公国。",
+        "reference": [
+          "Rollo",
+          "Rollo",
+          "Rollo",
+          "Rollo"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（罗洛/Rollo）与标准答案完全一致，且提供了更详细的背景信息。",
+        "tokens": 3347,
+        "steps": 1
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "prediction": "根据上下文，诺曼人独特的文化和种族身份最初是在10世纪上半叶形成的。\n\n来源[1]明确指出：“The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century”。",
+        "reference": [
+          "10th century",
+          "the first half of the 10th century",
+          "10th",
+          "10th"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（10世纪上半叶）与标准答案完全一致，且提供了更详细的表述。",
+        "tokens": 4188,
+        "steps": 1
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "prediction": "根据上下文，黑斯廷斯战役中的公爵是诺曼底的威廉二世公爵（Duke William II of Normandy），他同时也是征服者威廉（William the Conqueror）。",
+        "reference": [
+          "William the Conqueror",
+          "William the Conqueror",
+          "William the Conqueror"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均正确指出黑斯廷斯战役中的公爵是征服者威廉，且提供了更详细的背景信息。",
+        "tokens": 4916,
+        "steps": 1
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "prediction": "根据上下文，诺曼底公国最初由维京统治者罗洛（Rollo）于911年通过《圣克莱尔-苏尔-埃普特条约》与西法兰克国王查理三世（Charles III of West Francia）建立。随后，公国由诺曼王朝统治，其中提及的统治者包括理查一世（Richard I of Normandy）和征服英格兰的威廉二世公爵（Duke William II of Normandy，即威廉一世）。早期诺曼底公爵作为法国国王的封臣，持有该公国。",
+        "reference": [
+          "Richard I",
+          "Richard I",
+          "Richard I"
+        ],
+        "score": 1,
+        "reason": "Agent预测中明确包含了标准答案的核心信息'理查一世（Richard I of Normandy）'，且提供了更详细的历史背景。",
+        "tokens": 5824,
+        "steps": 1
+      },
+      {
+        "question": "What religion were the Normans",
+        "prediction": "根据上下文，诺曼人最终信仰天主教（基督教）。\n\n上下文指出：\n- 他们以“基督教虔诚”而闻名，并成为他们所融入的“天主教正统”的倡导者（来源[2]）。\n- 罗洛的维京后代及其法兰克妻子用“天主教（基督教）”取代了 Norse 宗教（来源[3]）。",
+        "reference": [
+          "Catholic",
+          "Catholic orthodoxy",
+          "Catholic"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（诺曼人信仰天主教/基督教）与标准答案一致，且提供了更详细的上下文信息。",
+        "tokens": 6603,
+        "steps": 1
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "prediction": "The original meaning of the word \"Norman\" is \"Norseman\" or \"Viking.\" It is derived from Old Norse *Norðmaðr* (or Old Low Franconian *Nortmann*), meaning \"Northman,\" and was Latinized as *Nortmannus*, *Normannus*, or *Nordmannus*.",
+        "reference": [
+          "Viking",
+          "Norseman, Viking",
+          "Norseman, Viking"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确包含了标准答案的核心信息'Norseman'和'Viking'，并提供了更详细的词源解释。",
+        "tokens": 7418,
+        "steps": 1
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "prediction": "根据上下文，拉丁语版本的“Norman”一词最早记录于9世纪（Medieval Latin, 9th century）。",
+        "reference": [
+          "9th century",
+          "9th century",
+          "9th century"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（9世纪）与标准答案完全一致，且提供了更详细的背景信息（Medieval Latin）。",
+        "tokens": 8200,
+        "steps": 1
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "prediction": "根据上下文，诺曼底公国于911年通过《圣克莱尔-苏尔-埃普特条约》建立。",
+        "reference": [
+          "911",
+          "911",
+          "911"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了911年这一核心事实，且提供了更详细的背景信息。",
+        "tokens": 9058,
+        "steps": 1
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "prediction": "Rollo signed the treaty of Saint-Clair-sur-Epte with King Charles III of West Francia.",
+        "reference": [
+          "King Charles III",
+          "King Charles III",
+          "King Charles III"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（与查理三世签约）与标准答案一致，额外细节（西法兰克）不影响准确性。",
+        "tokens": 9865,
+        "steps": 1
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "prediction": "根据上下文，最初界定诺曼底公国（Duchy of Normandy）边界的河流是埃普特河（the river Epte）。911年的《圣克莱尔-苏尔-埃普特条约》将埃普特河与大西洋海岸之间的土地授予了维京首领罗洛。",
+        "reference": [
+          "Seine",
+          "Epte",
+          "Seine"
+        ],
+        "score": 0,
+        "reason": "Agent预测仅提及埃普特河，遗漏了标准答案中的塞纳河，信息不完整。",
+        "tokens": 10936,
+        "steps": 1
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "prediction": "Rollo。",
+        "reference": [
+          "Rollo",
+          "Rollo",
+          "Rollo"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致。",
+        "tokens": 11706,
+        "steps": 1
+      },
+      {
+        "question": "What was the Norman religion?",
+        "prediction": "根据上下文，诺曼人最终信仰的是天主教（基督教）。他们最初是北欧异教徒，但在定居法国（诺曼底）后，通过同化，用天主教取代了原有的诺斯宗教，并成为天主教正统的倡导者。",
+        "reference": [
+          "Catholicism",
+          "Catholicism",
+          "Catholicism"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（天主教）与标准答案一致，且提供了更详细的背景信息。",
+        "tokens": 12462,
+        "steps": 1
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "prediction": "诺曼人位于法国北部，具体来说，他们定居并命名的地区是诺曼底（Normandy）。该区域最初对应于塞纳河以北的上诺曼底地区，后来向西扩展至塞纳河以外。",
+        "reference": [
+          "north",
+          "the north",
+          "north"
+        ],
+        "score": 1,
+        "reason": "Agent预测明确指出诺曼人位于法国北部（诺曼底），与标准答案的核心信息一致，且提供了更详细的背景信息。",
+        "tokens": 13377,
+        "steps": 1
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "prediction": "根据上下文，诺曼人的一项主要出口是战斗骑兵（fighting horsemen）。到1066年时，诺曼底出口战斗骑兵已超过一代人的时间。",
+        "reference": [
+          "fighting horsemen",
+          "fighting horsemen",
+          "fighting horsemen"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确给出了标准答案的核心信息‘fighting horsemen’（战斗骑兵），且提供了更详细的背景说明。",
+        "tokens": 14249,
+        "steps": 1
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "prediction": "根据上下文，诺曼人在意大利的主要敌人是拜占庭帝国。在亚美尼亚，诺曼人最初与塞尔柱土耳其人结盟对抗亚美尼亚诸侯国，但后来许多诺曼人又为更南部的亚美尼亚国家服务。因此，诺曼人的敌人并非单一且固定，而是根据时期和地区变化：在意大利主要是拜占庭帝国；在亚美尼亚地区，他们先后与亚美尼亚诸侯国、塞尔柱土耳其人以及拜占庭帝国发生冲突或合作。",
+        "reference": [
+          "Seljuk Turks",
+          "the Pechenegs, the Bulgars, and especially the Seljuk Turks",
+          "the Seljuk Turks"
+        ],
+        "score": 0,
+        "reason": "标准答案明确指出主要敌人是塞尔柱突厥人等，而Agent预测在意大利的主要敌人是拜占庭帝国，与标准答案不符。",
+        "tokens": 15293,
+        "steps": 1
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "prediction": "Herve served as a Byzantine general in the 1050s.",
+        "reference": [
+          "1050s",
+          "in the 1050s",
+          "in the 1050s"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1050s）与标准答案完全一致，表述清晰准确。",
+        "tokens": 16108,
+        "steps": 1
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "prediction": "根据上下文，罗伯特·克里斯平（Robert Crispin）在1060年代（in the 1060s）率领埃德萨的诺曼人对抗土耳其人。",
+        "reference": [
+          "1060s",
+          "In the 1060s",
+          "In the 1060s"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1060年代）与标准答案完全一致，且提供了更详细的背景信息。",
+        "tokens": 16937,
+        "steps": 1
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "prediction": "根据上下文，阻止罗塞尔·德·巴约勒（Roussel de Bailleul）建立独立国家的是拜占庭将军亚历克修斯·科穆宁（Alexius Komnenos）。  \n（来源：A-mem [2]）",
+        "reference": [
+          "Alexius Komnenos",
+          "Alexius Komnenos",
+          "Alexius Komnenos"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均指出是Alexius Komnenos。",
+        "tokens": 17761,
+        "steps": 1
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "prediction": "根据上下文，文中提到的诺曼城堡名称是**Trim Castle**和**Dublin Castle**（都柏林城堡）。",
+        "reference": [
+          "Afranji",
+          "Afranji",
+          "Afranji"
+        ],
+        "score": 0,
+        "reason": "Agent预测的答案与标准答案完全不符。",
+        "tokens": 18544,
+        "steps": 1
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "prediction": "根据上下文，当“Franks”进入幼发拉底河谷时，其领导者是一位名叫 **Oursel** 的诺曼人。",
+        "reference": [
+          "Oursel",
+          "Oursel",
+          "Oursel"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确指出了领导者是Oursel，与标准答案核心事实一致。",
+        "tokens": 19548,
+        "steps": 1
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "prediction": "根据上下文，诺曼人在安纳托利亚曾与土耳其军队结盟，共同攻击了亚美尼亚的附庸国萨松和塔龙（来源: A-mem [1]）。",
+        "reference": [
+          "Turkish forces",
+          "Turkish forces",
+          "Turkish forces"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（与土耳其军队结盟）与标准答案一致，且提供了更详细的背景信息。",
+        "tokens": 20516,
+        "steps": 1
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "prediction": "根据上下文，劳里家族（Raoulii）的起源可以追溯到一位名叫劳尔（Raoul）的意大利-诺曼人，该家族属于拜占庭希腊时期由诺曼雇佣兵后裔组成的家族之一。",
+        "reference": [
+          "Norman mercenary",
+          "an Italo-Norman named Raoul",
+          "descended from an Italo-Norman named Raoul"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确指出了家族起源于名为Raoul的意大利-诺曼人，与标准答案核心事实一致，且提供了更详细的背景信息。",
+        "tokens": 21395,
+        "steps": 1
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "prediction": "根据上下文，阿普利亚伯爵的名字是罗伯特·吉斯卡尔（Robert Guiscard）。",
+        "reference": [
+          "Robert Guiscard",
+          "Robert Guiscard",
+          "Robert Guiscard"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致，均为罗伯特·吉斯卡尔（Robert Guiscard）。",
+        "tokens": 22153,
+        "steps": 1
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "prediction": "根据上下文，Dyrrachium 在 1082 年 2 月被出卖给诺曼人。",
+        "reference": [
+          "1082",
+          "February 1082",
+          "February 1082"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1082年2月）与标准答案完全一致，且表述更详细。",
+        "tokens": 22915,
+        "steps": 1
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "prediction": "根据上下文，罗伯特·吉斯卡尔的军队有 **30,000 人**。",
+        "reference": [
+          "30,000",
+          "30,000",
+          "30,000"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均为30,000人。",
+        "tokens": 23705,
+        "steps": 1
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "prediction": "根据上下文，诺曼人与拜占庭人是在德阿波利斯（Deabolis）城签署了和平条约。",
+        "reference": [
+          "Deabolis",
+          "Deabolis",
+          "Deabolis"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（Deabolis）与标准答案完全一致，且提供了更详细的表述。",
+        "tokens": 24659,
+        "steps": 1
+      },
+      {
+        "question": "Who was Robert's son?",
+        "prediction": "根据提供的上下文，无法确定“Robert”具体指代哪一位，因此无法回答“Robert's son”是谁。",
+        "reference": [
+          "Bohemond",
+          "Bohemond",
+          "Bohemond"
+        ],
+        "score": 0,
+        "reason": "标准答案明确给出了名字，但Agent回答无法确定，不符合得分条件。",
+        "tokens": 25462,
+        "steps": 1
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "prediction": "根据提供的上下文，无法确定Petrela位于哪条河流旁。上下文信息中没有提及“Petrela”这个地点。",
+        "reference": [
+          "Deabolis",
+          "the river Deabolis",
+          "Deabolis"
+        ],
+        "score": 0,
+        "reason": "Agent预测为无法确定，但标准答案提供了明确信息。",
+        "tokens": 26299,
+        "steps": 1
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "prediction": "根据上下文，诺曼人多次攻击都拉齐翁（Dyrrachium）。其中明确提到的攻击时间有两次：一次是在**1082年**（来源[3]），另一次是在**1107年**（来源[2]）。此外，还有一次攻击发生在**1185年**（来源[1]）。",
+        "reference": [
+          "1185",
+          "in 1185",
+          "1185"
+        ],
+        "score": 1,
+        "reason": "Agent预测包含了标准答案1185，且核心事实正确。",
+        "tokens": 27084,
+        "steps": 1
+      },
+      {
+        "question": "What was the naval base called?",
+        "prediction": "根据上下文，该海军基地被称为**Dyrrachium**（位于亚得里亚海）。",
+        "reference": [
+          "Dyrrachium",
+          "Dyrrachium",
+          "Dyrrachium"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了标准答案中的核心信息Dyrrachium，且提供了额外细节，符合评分标准。",
+        "tokens": 27939,
+        "steps": 1
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "prediction": "根据上下文，Dyrrachium 是亚得里亚海的一个重要海军基地，位于阿尔巴尼亚地区。它曾多次被诺曼人进攻和占领，也曾被拜占庭帝国收复。具体来说，它靠近瓦洛纳（Valona）和布特林特（Butrint），并控制着通往内陆（如阿尔巴农通道和迪布拉）的要道。",
+        "reference": [
+          "the Adriatic",
+          "the Adriatic",
+          "Adriatic"
+        ],
+        "score": 1,
+        "reason": "Agent预测明确指出Dyrrachium位于亚得里亚海（Adriatic），与标准答案核心信息一致，且提供了更详细的背景信息。",
+        "tokens": 28744,
+        "steps": 1
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "prediction": "Emma married King Ethelred II of England.",
+        "reference": [
+          "King Ethelred II",
+          "Ethelred II",
+          "King Ethelred II"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（Emma married King Ethelred II）与标准答案完全一致，且提供了更详细的背景信息（of England），符合评分标准。",
+        "tokens": 29532,
+        "steps": 1
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "prediction": "根据上下文，Emma的兄弟是诺曼底公爵理查二世（Duke Richard II of Normandy）。",
+        "reference": [
+          "Duke Richard II",
+          "Duke Richard II",
+          "Duke Richard II"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（Duke Richard II）与标准答案完全一致，且提供了更详细的背景信息（of Normandy）。",
+        "tokens": 30364,
+        "steps": 1
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "prediction": "Ethelred fled to Normandy.",
+        "reference": [
+          "Normandy",
+          "Normandy",
+          "Normandy"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均指出Ethelred逃往Normandy。",
+        "tokens": 31018,
+        "steps": 1
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "prediction": "根据上下文，将埃塞尔雷德二世（Ethelred II）驱逐出英格兰的是斯韦恩·福克比尔德（Sweyn Forkbeard）。  \n（依据：[1] 中提到“Ethelred fled to Normandy in 1013, when he was forced from his kingdom by Sweyn Forkbeard”。）",
+        "reference": [
+          "Sweyn Forkbeard",
+          "Sweyn Forkbeard",
+          "Sweyn Forkbeard"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确指出了斯韦恩·福克比尔德（Sweyn Forkbeard）驱逐了埃塞尔雷德二世，与标准答案的核心事实一致。",
+        "tokens": 31760,
+        "steps": 1
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "prediction": "根据上下文，爱德华（忏悔者）的同母异父兄弟是哈萨克努特（Harthacnut）。\n\n依据：[1] 中提到，爱德华是在他同母异父兄弟哈萨克努特的邀请下于1041年返回英格兰的。",
+        "reference": [
+          "Harthacnut",
+          "Harthacnut",
+          "Harthacnut"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确指出了爱德华忏悔者的同母异父兄弟是Harthacnut，与标准答案的核心事实一致。",
+        "tokens": 32488,
+        "steps": 1
+      },
+      {
+        "question": "When did Edward return?",
+        "prediction": "爱德华（忏悔者）于1041年返回。",
+        "reference": [
+          "1041",
+          "in 1041",
+          "1041"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1041年）与标准答案完全一致，且表述更详细。",
+        "tokens": 33200,
+        "steps": 1
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "prediction": "Edward made Robert of Jumièges archbishop of Canterbury.",
+        "reference": [
+          "Robert of Jumièges",
+          "Robert of Jumièges",
+          "Robert of Jumièges"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确给出了标准答案中的核心事实：任命罗伯特为坎特伯雷大主教。",
+        "tokens": 33823,
+        "steps": 1
+      },
+      {
+        "question": "Where did Harold II die?",
+        "prediction": "根据上下文，哈罗德二世（Harold II）死于黑斯廷斯战役（Battle of Hastings）。",
+        "reference": [
+          "Battle of Hastings",
+          "the Battle of Hastings",
+          "at the Battle of Hastings"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（哈罗德二世死于黑斯廷斯战役）与标准答案完全一致。",
+        "tokens": 34581,
+        "steps": 1
+      },
+      {
+        "question": "Who killed Harold II?",
+        "prediction": "根据上下文，杀死哈罗德二世（Harold II）的是诺曼底公爵威廉二世（Duke William II of Normandy）。他在1066年的黑斯廷斯战役（Battle of Hastings）中征服了英格兰，并在该战役中杀死了哈罗德二世。",
+        "reference": [
+          "William II",
+          "Duke William II",
+          "Duke William II"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（威廉二世杀死了哈罗德二世）与标准答案一致，且提供了更详细的背景信息。",
+        "tokens": 35391,
+        "steps": 1
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "prediction": "根据上下文，黑斯廷斯战役发生于1066年。",
+        "reference": [
+          "1066",
+          "In 1066",
+          "1066"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了核心事实1066年，与标准答案一致。",
+        "tokens": 36092,
+        "steps": 1
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "prediction": "根据上下文，在诺曼人之前，英格兰的统治阶级是盎格鲁-撒克逊人。具体来说，在1066年诺曼征服后，“入侵的诺曼人及其后代取代了盎格鲁-撒克逊人成为英格兰的统治阶级”。",
+        "reference": [
+          "Anglo-Saxons",
+          "the Anglo-Saxons",
+          "Anglo-Saxons"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均指出盎格鲁-撒克逊人是诺曼人之前的统治阶级，且提供了更详细的背景信息。",
+        "tokens": 36869,
+        "steps": 1
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "prediction": "根据上下文，盎格鲁-诺曼语并没有一个独立的“最终形式”，而是逐渐被吸收和融合。\n\n上下文指出：\n- 盎格鲁-诺曼语最终被其臣民的盎格鲁-撒克逊语言（古英语）所吸收并对其产生影响。\n- 它与其他因素（如更早的盎格鲁-诺曼定居者的诺斯语和教会使用的拉丁语）共同促进了中古英语的发展。\n- 中古英语后来又演变为现代英语。\n\n因此，其“最终形式”是作为重要组成部分融入了中古英语，并进而演变为现代英语。",
+        "reference": [
+          "Modern English",
+          "Modern English",
+          "Modern English"
+        ],
+        "score": 0,
+        "reason": "Agent预测的核心结论是盎格鲁-诺曼语融入了中古英语，而标准答案明确指出其最终形式是现代英语。两者存在事实性差异。",
+        "tokens": 37642,
+        "steps": 1
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "prediction": "根据上下文，诺曼人入侵巴诺湾的年份是 **1169年**。",
+        "reference": [
+          "1169",
+          "1169",
+          "1169"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了标准答案中的核心年份1169。",
+        "tokens": 38489,
+        "steps": 1
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "prediction": "Based on the provided context, the Normans invaded Ireland in 1169.",
+        "reference": [
+          "Ireland",
+          "Ireland",
+          "Ireland"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了标准答案中的核心事实：诺曼人在1169年入侵了爱尔兰。",
+        "tokens": 39319,
+        "steps": 1
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "prediction": "根据上下文，诺曼人在爱尔兰与爱尔兰文化（Gaelic Irish culture）相结合。起初诺曼人保持了自己独特的文化和民族性，但随着时间的推移，他们逐渐融入爱尔兰文化，两种文化相互混合，在语言、文化和观念上相互借鉴，以至于诺曼人变得“比爱尔兰人更爱尔兰化”。",
+        "reference": [
+          "Irish",
+          "Irish",
+          "Irish"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，明确指出诺曼人与爱尔兰文化结合，且回答更为详细。",
+        "tokens": 40146,
+        "steps": 1
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "prediction": "根据上下文，玛格丽特（Margaret）的兄弟是埃德加·阿瑟林（Edgar Atheling）。",
+        "reference": [
+          "Edgar",
+          "Edgar",
+          "Edgar Atheling"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（Edgar Atheling）与标准答案完全一致，符合得分条件。",
+        "tokens": 40930,
+        "steps": 1
+      }
+    ],
+    "R2": [
+      {
+        "question": "In what country is Normandy located?",
+        "prediction": "Based on the provided context, Normandy is located in France.  \n\nThe context states:  \n- \"The Normans were the people who in the 10th and 11th centuries gave their name to Normandy, a region in France.\" (来源: A-mem [2])  \n- The Duchy of Normandy was established by treaty with King Charles III of West Francia and was \"a great fief of medieval France.\" (来源: A-mem [3])",
+        "reference": [
+          "France",
+          "France",
+          "France",
+          "France"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了核心事实‘France’，与标准答案一致。",
+        "tokens": 42964,
+        "steps": 2
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "prediction": "根据上下文，诺曼人（Normans）在10世纪和11世纪以其名命名了诺曼底地区（[1]）。",
+        "reference": [
+          "10th and 11th centuries",
+          "in the 10th and 11th centuries",
+          "10th and 11th centuries",
+          "10th and 11th centuries"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（10世纪和11世纪）与标准答案完全一致，且提供了更详细的背景信息。",
+        "tokens": 44894,
+        "steps": 2
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "prediction": "根据上下文，诺尔斯人（Norse）起源于丹麦、冰岛和挪威。此外，罗洛的队伍中还包括可能来自瑞典的人，以及来自挪威人控制的英格兰丹法区的盎格鲁-丹麦人，诺尔斯-盖尔人，奥克尼维京人等，这些都表明其来源与斯堪的纳维亚及北欧地区相关。\n\n来源：\n- 上下文[2]、[4]、[8]、[11]、[13]明确指出诺曼人（其名来源于“Norseman”）是来自丹麦、冰岛和挪威的袭击者和海盗的后代。\n- 上下文[1]、[5]、[7]、[10]、[14]在描述罗洛的队伍时，列出了包括丹麦人、挪威人、诺尔斯-盖尔人、奥克尼维京人、可能还有瑞典人，以及来自英格兰丹法区的盎格鲁-丹麦人。",
+        "reference": [
+          "Denmark, Iceland and Norway",
+          "Denmark, Iceland and Norway",
+          "Denmark, Iceland and Norway",
+          "Denmark, Iceland and Norway"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（丹麦、冰岛、挪威）与标准答案完全一致，且提供了更详细的背景信息。",
+        "tokens": 54339,
+        "steps": 5
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "prediction": "根据上下文，诺曼人的领导者是罗洛（Rollo）。文中明确指出，这些来自丹麦、冰岛和挪威的诺斯人（“Norman”来源于“Norseman”）在他们的领袖罗洛领导下，同意向西法兰克国王查理三世宣誓效忠。",
+        "reference": [
+          "Rollo",
+          "Rollo",
+          "Rollo",
+          "Rollo"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（罗洛/Rollo）与标准答案完全一致，且提供了更详细的背景信息。",
+        "tokens": 56196,
+        "steps": 2
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "prediction": "根据上下文，诺曼人首次获得独立身份是在10世纪上半叶。具体来说，上下文[1]指出：“诺曼人独特的文化和种族身份最初出现于10世纪上半叶”。",
+        "reference": [
+          "10th century",
+          "the first half of the 10th century",
+          "10th",
+          "10th"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（10世纪上半叶）与标准答案完全一致。",
+        "tokens": 58067,
+        "steps": 2
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "prediction": "根据上下文，黑斯廷斯战役中的公爵是诺曼底的威廉二世公爵（Duke William II of Normandy），他也被称为征服者威廉（William the Conqueror）。上下文[1]和[4]明确指出：“In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings.” 上下文[2]和[5]也提到，这次征服是由他们的公爵威廉征服者领导的。",
+        "reference": [
+          "William the Conqueror",
+          "William the Conqueror",
+          "William the Conqueror"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致，均正确指出黑斯廷斯战役中的公爵是征服者威廉（William the Conqueror）。",
+        "tokens": 61611,
+        "steps": 3
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "prediction": "根据上下文，诺曼底公国最初由维京统治者罗洛通过条约建立，后来由诺曼公爵统治，其中特别提到了威廉二世公爵和理查一世公爵。\n\n具体来说：\n- 公国于911年由西法兰克国王查理三世和著名的维京统治者罗洛通过《圣克莱尔-叙尔-埃普特条约》建立（来源1、4、8、10、13）。\n- 在理查一世统治下，公国被锻造成为一个有凝聚力且强大的封建诸侯国（来源3、6、9）。\n- 1066年，诺曼底公爵威廉二世征服了英格兰（来源2、7、12、15）。",
+        "reference": [
+          "Richard I",
+          "Richard I",
+          "Richard I"
+        ],
+        "score": 1,
+        "reason": "Agent预测中明确提到了理查一世公爵（Richard I）是诺曼底公国的统治者，这与标准答案的核心信息一致。",
+        "tokens": 71477,
+        "steps": 5
+      },
+      {
+        "question": "What religion were the Normans",
+        "prediction": "根据上下文，诺曼人信奉天主教（基督教）。\n\n依据如下：\n- 来源[1]指出，诺曼人“最终以其基督教虔诚而闻名，成为他们所融入的天主教正统的倡导者”。\n- 来源[3]明确说明，罗洛的维京后代“用天主教（基督教）……取代了北欧宗教”。",
+        "reference": [
+          "Catholic",
+          "Catholic orthodoxy",
+          "Catholic"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（诺曼人信奉天主教/基督教）与标准答案完全一致，且提供了更详细的解释和来源依据。",
+        "tokens": 73351,
+        "steps": 2
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "prediction": "根据上下文，单词 \"Norman\" 的原意是 \"Norseman\" 或 \"Viking\"（北欧人、维京人）。它来源于古低地法兰克语 \"Nortmann\" 或古诺尔斯语 \"Norðmaðr\"，意为 \"Northman\"，并在中世纪拉丁语中被记录为 \"Nortmannus, Normannus, or Nordmannus\"，意思相同（来源[1]）。这些人是来自丹麦、冰岛和挪威的北欧袭击者和海盗（来源[2]）。",
+        "reference": [
+          "Viking",
+          "Norseman, Viking",
+          "Norseman, Viking"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确给出了标准答案中的核心信息（Norseman/Viking），且提供了更详细的解释。",
+        "tokens": 75253,
+        "steps": 2
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "prediction": "The Latin version of the word Norman was first recorded in the 9th century in Medieval Latin.",
+        "reference": [
+          "9th century",
+          "9th century",
+          "9th century"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（9th century）与标准答案完全一致，额外的细节（Medieval Latin）不影响准确性。",
+        "tokens": 81121,
+        "steps": 4
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "prediction": "根据上下文，诺曼底公国（Duchy of Normandy）始于911年，由《圣克莱尔-叙尔-埃普特条约》建立。",
+        "reference": [
+          "911",
+          "911",
+          "911"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了诺曼底公国成立于911年的核心事实，且提供了额外细节，符合评分标准。",
+        "tokens": 83039,
+        "steps": 2
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "prediction": "根据上下文，罗洛（Rollo）与西法兰克国王查理三世（King Charles III of West Francia）签订了《圣克莱尔-叙尔-埃普特条约》（treaty of Saint-Clair-sur-Epte）。  \n（来源：[1]）",
+        "reference": [
+          "King Charles III",
+          "King Charles III",
+          "King Charles III"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（与查理三世签约）与标准答案一致，且提供了更详细的背景信息。",
+        "tokens": 85054,
+        "steps": 2
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "prediction": "根据上下文，最初作为诺曼底公国边界的河流是埃普特河（river Epte）。上下文指出，诺曼底公国始于911年，由西法兰克国王查理三世与维京首领罗洛通过《圣克莱尔-苏尔-埃普特条约》建立，该条约授予罗洛及其部下“埃普特河与大西洋海岸之间的法国土地”（来源：A-mem [9], [10], [13]）。",
+        "reference": [
+          "Seine",
+          "Epte",
+          "Seine"
+        ],
+        "score": 0,
+        "reason": "标准答案为三条河流，而Agent预测仅提及其中一条，核心事实不完整。",
+        "tokens": 95544,
+        "steps": 5
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "prediction": "Rollo.",
+        "reference": [
+          "Rollo",
+          "Rollo",
+          "Rollo"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致。",
+        "tokens": 104587,
+        "steps": 5
+      },
+      {
+        "question": "What was the Norman religion?",
+        "prediction": "Based solely on the provided context, the Norman religion was Catholicism (Christianity). The Normans assimilated into Catholic orthodoxy, replacing their original Norse religion with it.",
+        "reference": [
+          "Catholicism",
+          "Catholicism",
+          "Catholicism"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均指出诺曼人的宗教是天主教，且提供了更详细的背景信息。",
+        "tokens": 106421,
+        "steps": 2
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "prediction": "根据上下文，诺曼人位于诺曼底地区，该地区是法国的一个区域。具体而言，诺曼底公国最初位于前法兰克王国纽斯特里亚，对应现今上诺曼底的北部，南至塞纳河，后来向西扩展至塞纳河以外。",
+        "reference": [
+          "north",
+          "the north",
+          "north"
+        ],
+        "score": 1,
+        "reason": "Agent预测明确指出诺曼人位于诺曼底地区，并说明其在法国北部（对应上诺曼底的北部），核心事实与标准答案一致。",
+        "tokens": 108433,
+        "steps": 2
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "prediction": "根据上下文，诺曼人的一项主要出口是战斗骑兵。具体来说，在1066年之前，诺曼底已经出口战斗骑兵超过了一代人的时间（来源: A-mem [9]）。",
+        "reference": [
+          "fighting horsemen",
+          "fighting horsemen",
+          "fighting horsemen"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实'战斗骑兵'与标准答案'fighting horsemen'完全一致，且提供了更详细的背景信息。",
+        "tokens": 117764,
+        "steps": 5
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "prediction": "根据上下文，诺曼人在意大利、拜占庭帝国和亚美尼亚的主要敌人并不单一，且在不同时期和地区有所不同。  \n\n在意大利，诺曼人最初被伦巴第人鼓励来对抗拜占庭帝国（来源1、4、7、10、13）。  \n\n在拜占庭帝国和亚美尼亚地区，诺曼人与佩切涅格人、保加尔人作战，尤其是与塞尔柱突厥人作战（来源1、4、7、10、13）。此外，部分诺曼人曾加入土耳其军队，帮助摧毁亚美尼亚的附庸国萨松和塔龙（来源2、5、8、11、14），但后来也有许多诺曼人在亚美尼亚奇里乞亚和托罗斯山脉地区为亚美尼亚国家服务（来源2、5、8、11、14）。  \n\n因此，诺曼人的主要敌人包括：  \n- 在意大利：拜占庭帝国（最初）。  \n- 在拜占庭帝国和亚美尼亚地区：尤其是塞尔柱突厥人，同时也与佩切涅格人、保加尔人作战，并曾与土耳其军队合作对抗某些亚美尼亚势力。",
+        "reference": [
+          "Seljuk Turks",
+          "the Pechenegs, the Bulgars, and especially the Seljuk Turks",
+          "the Seljuk Turks"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心内容与标准答案一致，明确指出在拜占庭帝国和亚美尼亚地区，诺曼人的主要敌人是塞尔柱突厥人，同时也提及了佩切涅格人和保加尔人。",
+        "tokens": 128714,
+        "steps": 5
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "prediction": "Herve served as a Byzantine general in the 1050s.",
+        "reference": [
+          "1050s",
+          "in the 1050s",
+          "in the 1050s"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1050s）与标准答案完全一致，表述清晰准确。",
+        "tokens": 130599,
+        "steps": 2
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "prediction": "Robert Crispin led the Normans of Edessa against the Turks in the 1060s.",
+        "reference": [
+          "1060s",
+          "In the 1060s",
+          "In the 1060s"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1060s）与标准答案完全一致，且提供了更详细的背景信息。",
+        "tokens": 136916,
+        "steps": 4
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "prediction": "根据上下文，阻止罗塞尔·德·巴约勒（Roussel de Bailleul）建立独立国家的是拜占庭将军亚历克修斯·科穆宁（Alexius Komnenos）。  \n（来源：[2]和[4]均提到：“he was stopped by the Byzantine general Alexius Komnenos.”）",
+        "reference": [
+          "Alexius Komnenos",
+          "Alexius Komnenos",
+          "Alexius Komnenos"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确指出了亚历克修斯·科穆宁（Alexius Komnenos），与标准答案的核心事实完全一致。",
+        "tokens": 140647,
+        "steps": 3
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "prediction": "根据上下文，提到的诺曼城堡名称是 Trim Castle 和 Dublin Castle。",
+        "reference": [
+          "Afranji",
+          "Afranji",
+          "Afranji"
+        ],
+        "score": 0,
+        "reason": "Agent预测的答案与标准答案完全不符。",
+        "tokens": 144296,
+        "steps": 3
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "prediction": "根据上下文，当法兰克人进入幼发拉底河谷时，领导者是一位名叫 Oursel 的诺曼人。",
+        "reference": [
+          "Oursel",
+          "Oursel",
+          "Oursel"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确指出了领导者是Oursel，与标准答案核心事实一致，且提供了更详细的背景信息。",
+        "tokens": 154184,
+        "steps": 5
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "prediction": "根据上下文，在安纳托利亚（Anatolia），诺曼人（Normans）曾与土耳其军队（Turkish forces）联手。具体来说，他们加入土耳其军队是为了帮助摧毁亚美尼亚的附庸国萨松（Sassoun）和塔龙（Taron）（来源：A-mem [1], [4], [7], [10], [13]）。",
+        "reference": [
+          "Turkish forces",
+          "Turkish forces",
+          "Turkish forces"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均指出诺曼人与土耳其军队联手，并提供了更详细的背景信息。",
+        "tokens": 164420,
+        "steps": 5
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "prediction": "根据上下文，拉乌利家族（Raoulii）的起源是：他们源自一位名叫拉乌尔（Raoul）的意大利诺曼人，属于拜占庭希腊地区在科穆宁王朝复兴时期由诺曼雇佣兵起源的家族之一。",
+        "reference": [
+          "Norman mercenary",
+          "an Italo-Norman named Raoul",
+          "descended from an Italo-Norman named Raoul"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确包含了标准答案的核心信息：家族源自一位名叫拉乌尔（Raoul）的意大利诺曼人，且其背景是诺曼雇佣兵。",
+        "tokens": 173356,
+        "steps": 5
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "prediction": "根据上下文，阿普利亚伯爵的名字是罗伯特·吉斯卡尔。",
+        "reference": [
+          "Robert Guiscard",
+          "Robert Guiscard",
+          "Robert Guiscard"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均正确指出阿普利亚伯爵是罗伯特·吉斯卡尔。",
+        "tokens": 176986,
+        "steps": 3
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "prediction": "根据上下文，Dyrrachium 在 **1082年2月** 陷落于诺曼人之手。具体来说，城市的守军抵抗到1082年2月，当时定居在那里的威尼斯和阿马尔菲商人将城市出卖给了诺曼人（来源[3]和[4]）。",
+        "reference": [
+          "1082",
+          "February 1082",
+          "February 1082"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1082年2月）与标准答案完全一致，且提供了更详细的背景信息。",
+        "tokens": 180672,
+        "steps": 3
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "prediction": "根据上下文，无法确定“Robert's army”的人数。提供的记忆片段中没有提及名为“Robert”的军队或相关事件。",
+        "reference": [
+          "30,000",
+          "30,000",
+          "30,000"
+        ],
+        "score": 0,
+        "reason": "标准答案为具体数字，但Agent预测表示无法确定，未提供正确信息。",
+        "tokens": 188459,
+        "steps": 5
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "prediction": "根据上下文，诺曼人与拜占庭人是在德阿波利斯（Deabolis）城签署了和平条约。",
+        "reference": [
+          "Deabolis",
+          "Deabolis",
+          "Deabolis"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（Deabolis）与标准答案完全一致，且提供了更详细的表述。",
+        "tokens": 192348,
+        "steps": 3
+      },
+      {
+        "question": "Who was Robert's son?",
+        "prediction": "根据上下文，无法确定“Robert's son”具体指谁，因为文中提到了多个名为Robert的人物（如Robert Guiscard、Robert de Grantmesnil、Robert the Bruce），但未明确提及其中任何一个人的儿子。因此，基于提供的上下文，无法回答该问题。",
+        "reference": [
+          "Bohemond",
+          "Bohemond",
+          "Bohemond"
+        ],
+        "score": 0,
+        "reason": "标准答案为'Bohemond'，但Agent预测回答无法确定，未给出正确信息。",
+        "tokens": 200884,
+        "steps": 5
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "prediction": "根据提供的上下文，没有提到 Petrela 或它位于哪条河附近。",
+        "reference": [
+          "Deabolis",
+          "the river Deabolis",
+          "Deabolis"
+        ],
+        "score": 0,
+        "reason": "Agent预测为信息不足，但标准答案提供了明确信息。",
+        "tokens": 211057,
+        "steps": 5
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "prediction": "根据上下文，诺曼人攻击迪拉基乌姆（Dyrrachium）的时间有三次：\n\n1. 第一次是在**1082年2月**，迪拉基乌姆被当地的威尼斯和阿马尔菲商人出卖给诺曼人（来源：A-mem [3] 和 [6]）。\n2. 第二次是在**1107年**，诺曼人在博希蒙德的指挥下围攻迪拉基乌姆（来源：A-mem [2] 和 [4]）。\n3. 第三次是在**1185年**，一支大型诺曼军队因拜占庭高级官员的背叛入侵了迪拉基乌姆（来源：A-mem [1] 和 [5]）。",
+        "reference": [
+          "1185",
+          "in 1185",
+          "1185"
+        ],
+        "score": 1,
+        "reason": "Agent预测中包含了标准答案1185，且核心事实正确。",
+        "tokens": 214835,
+        "steps": 3
+      },
+      {
+        "question": "What was the naval base called?",
+        "prediction": "根据上下文，该海军基地被称为“Dyrrachium”。",
+        "reference": [
+          "Dyrrachium",
+          "Dyrrachium",
+          "Dyrrachium"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了标准答案中的核心信息'Dyrrachium'。",
+        "tokens": 217931,
+        "steps": 3
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "prediction": "根据上下文，Dyrrachium 是亚得里亚海最重要的海军基地之一（来源：A-mem [1], [4], [7], [10], [13]）。",
+        "reference": [
+          "the Adriatic",
+          "the Adriatic",
+          "Adriatic"
+        ],
+        "score": 1,
+        "reason": "Agent预测明确指出Dyrrachium位于亚得里亚海，与标准答案的核心信息一致。",
+        "tokens": 227000,
+        "steps": 5
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "prediction": "Emma 嫁给了英格兰国王埃塞尔雷德二世（King Ethelred II of England）。",
+        "reference": [
+          "King Ethelred II",
+          "Ethelred II",
+          "King Ethelred II"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（Emma嫁给了King Ethelred II）与标准答案完全一致，且提供了更详细的背景信息（英格兰国王），符合评分标准。",
+        "tokens": 230833,
+        "steps": 3
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "prediction": "Emma's brother was Duke Richard II of Normandy.",
+        "reference": [
+          "Duke Richard II",
+          "Duke Richard II",
+          "Duke Richard II"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了标准答案中的核心信息：Emma的兄弟是Duke Richard II。",
+        "tokens": 239573,
+        "steps": 5
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "prediction": "Ethelred fled to Normandy.",
+        "reference": [
+          "Normandy",
+          "Normandy",
+          "Normandy"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均指出Ethelred逃往Normandy。",
+        "tokens": 241053,
+        "steps": 2
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "prediction": "Sweyn Forkbeard.",
+        "reference": [
+          "Sweyn Forkbeard",
+          "Sweyn Forkbeard",
+          "Sweyn Forkbeard"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致。",
+        "tokens": 246790,
+        "steps": 4
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "prediction": "根据上下文，爱德华（忏悔者）的同父异母兄弟是哈萨卡努特（Harthacnut）。文中提到，爱德华是在他同父异母兄弟哈萨卡努特的邀请下于1041年返回英格兰的（来源[1]和[4]）。",
+        "reference": [
+          "Harthacnut",
+          "Harthacnut",
+          "Harthacnut"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了标准答案中的核心信息Harthacnut，且提供了更多细节。",
+        "tokens": 250151,
+        "steps": 3
+      },
+      {
+        "question": "When did Edward return?",
+        "prediction": "Edward returned in 1041.",
+        "reference": [
+          "1041",
+          "in 1041",
+          "1041"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了标准答案中的核心事实（1041年）。",
+        "tokens": 253056,
+        "steps": 3
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "prediction": "Edward appointed Robert of Jumièges archbishop of Canterbury.",
+        "reference": [
+          "Robert of Jumièges",
+          "Robert of Jumièges",
+          "Robert of Jumièges"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了标准答案中的核心事实：爱德华任命了罗伯特（Robert of Jumièges）为坎特伯雷大主教。",
+        "tokens": 258773,
+        "steps": 4
+      },
+      {
+        "question": "Where did Harold II die?",
+        "prediction": "Harold II died at the Battle of Hastings.",
+        "reference": [
+          "Battle of Hastings",
+          "the Battle of Hastings",
+          "at the Battle of Hastings"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致，均指出哈罗德二世死于黑斯廷斯战役。",
+        "tokens": 264564,
+        "steps": 4
+      },
+      {
+        "question": "Who killed Harold II?",
+        "prediction": "根据上下文，哈罗德二世（Harold II）是在黑斯廷斯战役（Battle of Hastings）中被诺曼底公爵威廉二世（Duke William II of Normandy）杀死的。上下文多次提到：“In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings.”（来源：A-mem [1], [4], [7], [10], [13]）。",
+        "reference": [
+          "William II",
+          "Duke William II",
+          "Duke William II"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（威廉二世杀死了哈罗德二世）与标准答案一致，且提供了更详细的背景信息。",
+        "tokens": 273745,
+        "steps": 5
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "prediction": "根据上下文，黑斯廷斯战役发生在 1066 年。",
+        "reference": [
+          "1066",
+          "In 1066",
+          "1066"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了标准答案中的核心事实（1066年）。",
+        "tokens": 275504,
+        "steps": 2
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "prediction": "根据上下文，在诺曼人之前，英格兰的统治阶级是盎格鲁-撒克逊人。具体来说，文本多次提到“入侵的诺曼人及其后代取代了盎格鲁-撒克逊人，成为英格兰的统治阶级”（来源: A-mem [1], [4], [7], [10], [13]）。",
+        "reference": [
+          "Anglo-Saxons",
+          "the Anglo-Saxons",
+          "Anglo-Saxons"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均指出盎格鲁-撒克逊人是诺曼人之前的统治阶级。",
+        "tokens": 283552,
+        "steps": 5
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "prediction": "根据上下文，安格鲁-诺曼语的最终形式是被吸收进了其臣民的盎格鲁-撒克逊语言（即古英语）中，并对其产生了影响，共同促进了中古英语的发展，而中古英语后来又演变成了现代英语。",
+        "reference": [
+          "Modern English",
+          "Modern English",
+          "Modern English"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实是安格鲁-诺曼语的影响最终促成了现代英语，这与标准答案‘Modern English’一致，且提供了更详细的背景信息。",
+        "tokens": 292013,
+        "steps": 5
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "prediction": "根据上下文，诺曼人于1169年在班诺湾入侵。",
+        "reference": [
+          "1169",
+          "1169",
+          "1169"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1169年）与标准答案完全一致。",
+        "tokens": 293843,
+        "steps": 2
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "prediction": "根据上下文，诺曼人在1169年入侵了爱尔兰。具体来说，他们在班诺湾（Bannow Bay）入侵，并对爱尔兰文化和历史产生了深远影响。",
+        "reference": [
+          "Ireland",
+          "Ireland",
+          "Ireland"
+        ],
+        "score": 1,
+        "reason": "Agent准确回答了诺曼人在1169年入侵爱尔兰，与标准答案核心事实一致，且提供了更多细节。",
+        "tokens": 297540,
+        "steps": 3
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "prediction": "根据上下文，诺曼人在爱尔兰与爱尔兰文化结合。起初诺曼人保持了自己独特的文化和种族身份，但随着时间的推移，他们逐渐融入爱尔兰文化，两种文化相互混合，借鉴彼此的语言、文化和观念。",
+        "reference": [
+          "Irish",
+          "Irish",
+          "Irish"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确指出诺曼人与爱尔兰文化结合，核心事实与标准答案一致，且提供了更详细的背景信息。",
+        "tokens": 301596,
+        "steps": 3
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "prediction": "根据上下文，玛格丽特（Margaret）的兄弟是埃德加·阿瑟林（Edgar Atheling）。上下文多次提到“King Malcolm III of Scotland married Edgar's sister Margaret”，表明玛格丽特是埃德加的姐妹，因此埃德加是她的兄弟。",
+        "reference": [
+          "Edgar",
+          "Edgar",
+          "Edgar Atheling"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，正确指出Margaret的兄弟是Edgar Atheling。",
+        "tokens": 309907,
+        "steps": 5
+      }
+    ],
+    "R3": [
+      {
+        "question": "In what country is Normandy located?",
+        "prediction": "基于收集到的证据，诺曼底（Normandy）位于法国。证据明确指出诺曼底是法国的一个地区（\"a region in France\"），并且历史上是法兰西王国的一个大封地（\"a great fief of medieval France\"）。\n\n**答案：法国**",
+        "reference": [
+          "France",
+          "France",
+          "France",
+          "France"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均指出诺曼底位于法国。",
+        "tokens": 315229,
+        "steps": 2
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "prediction": "根据收集到的证据，诺曼人（Normans）在诺曼底（Normandie）地区活动的主要时期如下：\n\n1. **开始定居的时间**：证据指出，更早的维京定居者在**880年代**就开始抵达（证据[3]、[4]）。然而，诺曼底作为一个政治实体正式建立是在**911年**，通过西法兰克国王查理三世与维京首领罗洛（Rollo）签订的《圣克莱尔-苏尔-埃普特条约》（证据[6]）。该条约授予罗洛及其部众土地，以换取他们保护该地区免受其他维京人侵袭。\n\n2. **作为独特群体出现的时期**：诺曼人独特的文化和民族身份最初形成于**10世纪上半叶**（证据[1]、[5]、[7]）。他们是由来自丹麦、冰岛、挪威等地的北欧（“Norseman”）袭击者和海盗的后裔，与当地的法兰克和罗马-高卢人口融合而成。在**10世纪和11世纪**，他们赋予了“诺曼底”地区其名称，并在此期间发展成为一个具有重大政治、文化和军事影响的独特群体（证据[1]、[2]、[5]、[7]、[8]）。\n\n综上所述，诺曼人在诺曼底的存在和形成关键时期是**从9世纪末（880年代）的维京定居开始，在10世纪（特别是911年之后）作为独特群体出现并建立公国，并持续贯穿整个11世纪**。",
+        "reference": [
+          "10th and 11th centuries",
+          "in the 10th and 11th centuries",
+          "10th and 11th centuries",
+          "10th and 11th centuries"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（10世纪和11世纪）与标准答案完全一致，且提供了更详细的历史背景。",
+        "tokens": 324703,
+        "steps": 3
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "prediction": "根据收集到的证据，诺尔斯人（Norse）起源于丹麦、挪威和冰岛。证据[2]、[4]、[8]、[11]和[13]明确指出，诺曼人（其名称来源于“Norseman”）是来自丹麦、冰岛和挪威的诺尔斯掠夺者和海盗的后裔。此外，证据[1]、[6]和[12]在描述定居诺曼底的群体时提到了丹麦人、挪威人以及可能包括瑞典人，但关于瑞典的直接起源陈述未在证据中明确出现；主要明确的起源国家是丹麦、挪威和冰岛。",
+        "reference": [
+          "Denmark, Iceland and Norway",
+          "Denmark, Iceland and Norway",
+          "Denmark, Iceland and Norway",
+          "Denmark, Iceland and Norway"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（丹麦、挪威、冰岛）与标准答案完全一致，且未提供错误信息。",
+        "tokens": 343467,
+        "steps": 5
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "prediction": "基于收集到的证据，任务中提及的诺尔斯（Norse）领袖是**罗洛（Rollo）**。证据显示，罗洛领导了来自丹麦、冰岛和挪威的诺尔斯袭击者和海盗，并在10世纪初期与西法兰克国王查理三世（Charles III of West Francia）宣誓效忠，最终在法国建立了诺曼底地区。",
+        "reference": [
+          "Rollo",
+          "Rollo",
+          "Rollo",
+          "Rollo"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均为Rollo，且提供了更详细的背景信息。",
+        "tokens": 356337,
+        "steps": 4
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "prediction": "根据收集到的证据，诺曼人首次获得其独立身份是在 **10 世纪**。\n\n证据明确指出：“The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century”（诺曼人独特的文化和民族身份最初出现于10世纪上半叶）（来源[1]和[4]）。",
+        "reference": [
+          "10th century",
+          "the first half of the 10th century",
+          "10th",
+          "10th"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（10世纪）与标准答案一致，且提供了更详细的补充信息（10世纪上半叶），符合评分标准。",
+        "tokens": 361495,
+        "steps": 2
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "prediction": "根据提供的证据，黑斯廷斯战役中诺曼一方的公爵是诺曼底的威廉公爵（Duke William II of Normandy），他也被称为征服者威廉（William the Conqueror）。证据[1]和[4]明确指出：“In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings.” 证据[3]和[5]也提到，这场征服英格兰的远征是“on behalf of their duke, William the Conqueror”。",
+        "reference": [
+          "William the Conqueror",
+          "William the Conqueror",
+          "William the Conqueror"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确指出了黑斯廷斯战役中的公爵是诺曼底的威廉公爵，即征服者威廉，与标准答案的核心事实完全一致。",
+        "tokens": 366154,
+        "steps": 2
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "prediction": "根据提供的证据，诺曼底公爵领（Duchy of Normandy）的统治者包括：\n\n1.  **建立者**：诺曼底公国始于911年，由西法兰克国王查理三世（Charles III of West Francia）与著名的维京首领罗洛（Rollo）通过《圣克莱尔-苏尔-埃普特条约》（treaty of Saint-Clair-sur-Epte）建立。罗洛及其部众获得了埃普特河与大西洋海岸之间的土地，以换取他们抵御其他维京入侵的保护【1】【4】【5】。\n\n2.  **1066年征服英格兰时的公爵**：1066年，诺曼底公爵威廉二世（Duke William II of Normandy）在黑斯廷斯战役中征服了英格兰【3】【7】【14】。这位威廉二世即著名的“征服者威廉”（William the Conqueror）。\n\n3.  **重要统治者理查一世**：在理查一世（Richard I of Normandy）统治下，诺曼底公国被锻造成为一个凝聚力强、实力雄厚的封建诸侯国【2】【10】【13】。\n\n4.  **与法国国王的关系**：早期的诺曼底公爵（同时也是英格兰国王）因其在欧陆的领地，需向法国国王表示效忠（owed homage）【3】【7】【14】。\n\n5.  **1066年后的主要统治者**：证据明确指出，征服者威廉及其后的早期英格兰国王（如亨利一世、约翰等）同时兼任诺曼底公爵，他们构成了一个横跨海峡的单一诺曼人统治阶层【3】【7】【14】。\n\n6.  **公国被法国王室收回**：所提供的证据中未包含诺曼底公国被法国王室收回的具体时间和方式信息。\n\n**总结回答**：诺曼底公爵领最初由维京首领罗洛在911年建立。其著名的统治者包括将公国巩固为强大实体的理查一世，以及1066年征服英格兰的威廉二世（征服者威廉）。此后，诺曼底公爵通常由英格兰国王兼任，他们作为法国国王的封臣统治该地。关于公国何时以及如何被法国王室收回，现有证据未提供相关信息。",
+        "reference": [
+          "Richard I",
+          "Richard I",
+          "Richard I"
+        ],
+        "score": 0,
+        "reason": "标准答案为‘Richard I’，但Agent预测中仅将理查一世作为众多统治者之一提及，并未明确指出其为问题所问的特定统治者，核心事实未准确匹配。",
+        "tokens": 400575,
+        "steps": 7
+      },
+      {
+        "question": "What religion were the Normans",
+        "prediction": "根据收集到的证据，诺曼人的宗教信仰经历了转变：\n\n1.  **最初（10世纪前）**：诺曼人源自北欧的维京人（来自丹麦、冰岛和挪威的袭击者和海盗），他们原本信奉的是**北欧宗教**（Norse religion）[1, 4, 8, 10]。\n\n2.  **定居诺曼底后**：在首领罗洛（Rollo）的带领下，他们于10世纪在法国建立诺曼底公国。通过几代人与当地法兰克和罗马-高卢人口的同化与融合，罗洛的维京后代及其法兰克妻子用**天主教（基督教）** 取代了北欧宗教和古诺尔斯语[6, 9, 11]。他们最终以**基督教虔诚**闻名，成为他们所融入的**天主教正统**的倡导者[2, 5, 7]。\n\n**总结**：诺曼人最初是信奉北欧宗教的维京人，但在定居法国诺曼底后，他们皈依并成为了虔诚的**天主教（基督教）** 信徒。",
+        "reference": [
+          "Catholic",
+          "Catholic orthodoxy",
+          "Catholic"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均指出诺曼人最终信仰天主教，且提供了更详细的历史背景。",
+        "tokens": 413847,
+        "steps": 4
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "prediction": "根据收集到的证据，\"Norman\"一词的原始含义是“北方人”或“维京人”。\n\n证据[1]、[4]、[7]和[10]明确指出，英文名“Normans”来源于法语词，而该法语词本身借自古低地法兰克语“Nortmann”或直接来自古诺尔斯语“Norðmaðr”，其拉丁化形式意为“Norseman, Viking”（北欧人，维京人）。\n\n证据[2]、[5]、[8]和[11]进一步证实了这一含义，指出诺曼人源自北欧（“Norman”来源于“Norseman”）的袭击者和海盗。",
+        "reference": [
+          "Viking",
+          "Norseman, Viking",
+          "Norseman, Viking"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心含义‘维京人’与标准答案‘Viking, Norseman’完全一致，且提供了更详细的词源解释。",
+        "tokens": 426887,
+        "steps": 4
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "prediction": "根据收集到的证据，拉丁语版本的单词“Norman”（以形式 **Nortmannus, Normannus, 或 Nordmannus** 记录）首次记录于 **9 世纪** 的中世纪拉丁语文献中。  \n\n**引用证据**：证据[2]和[4]明确指出，这些拉丁化形式“recorded in Medieval Latin, 9th century”。",
+        "reference": [
+          "9th century",
+          "9th century",
+          "9th century"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（9世纪）与标准答案完全一致，且提供了更详细的拉丁语形式作为补充，符合评分标准。",
+        "tokens": 431611,
+        "steps": 2
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "prediction": "根据提供的证据，诺曼底公国（Duchy of Normandy）于 **911年** 建立。证据明确指出，它“began in 911 as a fiefdom”，并且是通过西法兰克国王查理三世与维京领袖罗洛签订的《圣克莱尔-苏尔-埃普特条约》建立的。",
+        "reference": [
+          "911",
+          "911",
+          "911"
+        ],
+        "score": 1,
+        "reason": "Agent准确给出了标准答案中的核心年份911年，且提供了更详细的背景信息。",
+        "tokens": 436841,
+        "steps": 2
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "prediction": "根据收集到的证据，罗洛（Rollo）是与西法兰克国王查理三世（King Charles III of West Francia）签订了《圣克莱尔-苏尔-埃普特条约》（Treaty of Saint-Clair-sur-Epte）【1】【4】。",
+        "reference": [
+          "King Charles III",
+          "King Charles III",
+          "King Charles III"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（与查理三世签约）与标准答案完全一致，且提供了更详细的背景信息（西法兰克国王）。",
+        "tokens": 442308,
+        "steps": 2
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "prediction": "根据收集到的证据，诺曼底公国（Duchy of Normandy）最初建立时，其东部边界是埃普特河（the river Epte）。\n\n证据[2]、[4]、[7]和[10]明确指出，911年《圣克莱尔-苏尔-埃普特条约》授予罗洛及其部众的土地位于“埃普特河与大西洋海岸之间”（between the river Epte and the Atlantic coast）。因此，埃普特河构成了公国最初的东部边界。",
+        "reference": [
+          "Seine",
+          "Epte",
+          "Seine"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（埃普特河是诺曼底公国最初的东部边界）与标准答案（Seine, Epte, Seine）中的关键信息一致，且回答更详细。",
+        "tokens": 457614,
+        "steps": 4
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "prediction": "根据收集到的证据，**罗洛（Rollo）** 在抵达后为早期的维京定居者提供了一个共同的身份。  \n\n证据表明：  \n- 在罗洛到来之前，早期的维京定居者（自880年代起）处于分散状态，分居在塞纳河谷东部和科唐坦半岛西部，彼此分离，没有形成统一的群体认同（证据[1]、[4]、[7]、[10]）。  \n- 罗洛率领的部众包括丹麦人、挪威人、诺尔斯-盖尔人、奥克尼维京人、可能还有瑞典人以及来自丹麦法区的盎格鲁-丹麦人，这些人在他的领导下统一起来（证据[1]、[4]、[7]、[10]）。  \n- 罗洛与西法兰克国王查理三世签订《圣克莱尔-苏尔-埃普特条约》（911年），获得土地并宣誓效忠，从而建立了诺曼底公国（证据[5]、[9]、[13]）。  \n- 罗洛及其后代通过与法兰克人融合，逐渐形成了独特的“诺曼人”文化与身份，并在10世纪上半叶首次出现（证据[2]、[6]、[8]、[11]、[14]）。  \n\n因此，**罗洛**的领导和政治整合使原本分散的维京定居者获得了统一的诺曼身份。",
+        "reference": [
+          "Rollo",
+          "Rollo",
+          "Rollo"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致，均正确指出是罗洛（Rollo）。",
+        "tokens": 477937,
+        "steps": 5
+      },
+      {
+        "question": "What was the Norman religion?",
+        "prediction": "根据收集到的证据，诺曼人的宗教经历了转变：\n\n1. **最初（10世纪前）**：诺曼人源自北欧（丹麦、冰岛、挪威）的袭击者和海盗，他们信奉**诺斯宗教（Norse religion）**（证据[1]、[3]、[5]、[9]、[12]）。\n\n2. **定居诺曼底后**：在首领罗洛（Rollo）的带领下，他们与西法兰克国王查理三世结盟并定居诺曼底。通过几代人与当地法兰克和罗马-高卢人口的融合，他们用**天主教（基督教）**取代了诺斯宗教（证据[3]、[5]、[9]、[12]）。\n\n3. **改信后的派别**：诺曼人成为**天主教正统**的倡导者，并融入了这一信仰（证据[2]、[6]、[7]、[10]）。\n\n**结论**：诺曼人最初信奉诺斯宗教，但在定居法国诺曼底后改信了天主教（基督教），并成为中世纪天主教正统的一部分。",
+        "reference": [
+          "Catholicism",
+          "Catholicism",
+          "Catholicism"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心结论（诺曼人改信了天主教）与标准答案（Catholicism）一致，且提供了更详细的历史背景。",
+        "tokens": 491372,
+        "steps": 4
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "prediction": "根据提供的证据，诺曼人（Normans）位于法国的诺曼底地区，具体来说是由他们建立的诺曼底公国。\n\n- 诺曼底公国最初于911年通过《圣克莱尔-叙尔-埃普特条约》建立，位于前法兰克王国纽斯特里亚（Neustria）内。条约授予维京首领罗洛及其部下埃普特河（river Epte）与大西洋海岸之间的土地，该区域大致相当于现今上诺曼底（Upper Normandy）的北部，下至塞纳河（river Seine）（来源[1], [4], [7]）。\n- 后来，诺曼底公国向西扩展，领土超出了塞纳河（来源[1], [4], [7]）。其领土大致相当于旧的鲁昂（Rouen）省（来源[1], [4], [7]）。",
+        "reference": [
+          "north",
+          "the north",
+          "north"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（诺曼人位于法国北部）与标准答案一致，且提供了更详细的地理和历史背景。",
+        "tokens": 500788,
+        "steps": 3
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "prediction": "根据收集到的证据，诺曼人的一项主要出口是**作战骑兵（fighting horsemen）**。证据[3]、[6]和[7]明确指出：“by 1066 Normandy had been exporting fighting horsemen for more than a generation”（到1066年，诺曼底出口作战骑兵已超过一代人的时间）。",
+        "reference": [
+          "fighting horsemen",
+          "fighting horsemen",
+          "fighting horsemen"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致，均为'fighting horsemen'，且提供了更详细的证据支持。",
+        "tokens": 509758,
+        "steps": 3
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "prediction": "根据收集到的证据，诺曼人在意大利、拜占庭帝国和亚美尼亚地区的主要敌人和关系如下：\n\n**步骤 1: 诺曼人在意大利的主要敌人是谁？**  \n证据显示，诺曼人最初是受伦巴第人鼓励来到意大利南部对抗拜占庭帝国的（证据[1]、[4]、[7]、[11]、[13]、[16]）。后来，他们在西西里为拜占庭服务，参与了乔治·马尼阿克斯在1038–40年的战役（证据[1]、[4]、[7]、[11]、[13]、[16]）。此外，诺曼人还征服了意大利南部的萨拉森人和拜占庭人，建立了西西里王国（证据[5]）。因此，在意大利，诺曼人的主要敌人包括**拜占庭帝国**和**萨拉森人**。\n\n**步骤 2: 诺曼人与拜占庭帝国的主要冲突是什么？**  \n诺曼人与拜占庭帝国既有冲突也有合作。冲突方面：诺曼人曾多次入侵拜占庭领土，例如在1107年，诺曼人在博希蒙德的指挥下围攻都拉齐乌姆（证据[3]、[6]、[8]、[12]），并占领了阿尔巴尼亚地区的多个据点（证据[3]、[6]、[8]、[12]）。此外，诺曼人曾背叛拜占庭，例如在1082年，都拉齐乌姆被威尼斯和阿马尔菲商人出卖给诺曼人（证据[14]）。合作方面：诺曼雇佣兵曾为拜占庭服务，如在西西里战役中作战（证据[1]、[4]、[7]、[11]、[13]、[16]），也有一些诺曼人担任拜占庭将军（证据[15]、[18]）。\n\n**步骤 3: 诺曼人与亚美尼亚的主要冲突是什么？**  \n证据显示，一些诺曼人加入了土耳其军队，帮助摧毁了亚美尼亚的附庸国萨松和塔龙（证据[2]、[10]、[17]）。这表明诺曼人曾与亚美尼亚人发生冲突。然而，后来许多诺曼人又在奇里乞亚和托罗斯山脉的亚美尼亚国家服务（证据[2]、[10]、[17]）。例如，1073–74年，亚美尼亚将军菲拉雷托斯·布拉查米乌斯的军队中有8000名诺曼人（证据[2]、[10]、[17]）。因此，诺曼人与亚美尼亚的关系既有冲突也有合作。\n\n**步骤 4: 诺曼人是否曾与拜占庭帝国结盟？**  \n是的，诺曼人曾与拜占庭帝国结盟或为其服务。例如，诺曼雇佣兵在拜占庭军队中作战，特别是在西西里战役中（证据[1]、[4]、[7]、[11]、[13]、[16]）。此外，诺曼将军如赫维、罗伯特·克里斯平和鲁塞尔·德·巴约勒曾在拜占庭服役（证据[15]、[18]）。\n\n**步骤 5: 诺曼人是否曾与亚美尼亚结盟？**  \n是的，诺曼人曾与亚美尼亚结盟或为其服务。证据显示，许多诺曼人在亚美尼亚国家服务，例如在奇里乞亚和托罗斯山脉（证据[2]、[10]、[17]）。此外，诺曼人曾组成亚美尼亚将军军队中的重要部分（证据[2]、[10]、[17]）。\n\n**结论：**  \n基于证据，诺曼人在意大利的主要敌人是**拜占庭帝国**和**萨拉森人**。在拜占庭帝国方面，诺曼人既是敌人（通过入侵和冲突）也是盟友（通过雇佣兵服务）。在亚美尼亚方面，诺曼人最初是敌人（帮助土耳其摧毁亚美尼亚附庸国），但后来成为盟友（在亚美尼亚国家服务）。因此，任务问题的答案是：诺曼人在意大利的主要敌人是拜占庭帝国和萨拉森人；与拜占庭帝国和亚美尼亚的关系既有冲突也有合作，而非单一的主要敌人。",
+        "reference": [
+          "Seljuk Turks",
+          "the Pechenegs, the Bulgars, and especially the Seljuk Turks",
+          "the Seljuk Turks"
+        ],
+        "score": 0,
+        "reason": "Agent预测未提及标准答案中的主要敌人（塞尔柱突厥人、佩切涅格人、保加尔人），而是聚焦于拜占庭和萨拉森人，与标准答案不符。",
+        "tokens": 538245,
+        "steps": 6
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "prediction": "根据收集到的证据，Herve 在 **1050年代** 担任拜占庭将军。证据[1]和[4]明确指出：“One of the first Norman mercenaries to serve as a Byzantine general was Hervé in the 1050s.”",
+        "reference": [
+          "1050s",
+          "in the 1050s",
+          "in the 1050s"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1050年代）与标准答案（1050s）完全一致，符合得分条件。",
+        "tokens": 543174,
+        "steps": 2
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "prediction": "根据收集到的证据，Robert Crispin 领导埃德萨的诺曼人对抗土耳其人是在 **1060年代**。\n\n**证据引用**：  \n- 证据[1]和[4]均明确指出：“In the 1060s, Robert Crispin led the Normans of Edessa against the Turks.”",
+        "reference": [
+          "1060s",
+          "In the 1060s",
+          "In the 1060s"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1060年代）与标准答案完全一致，且提供了支持证据。",
+        "tokens": 548292,
+        "steps": 2
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "prediction": "根据收集到的证据，阻止鲁塞尔·德·巴约勒（Roussel de Bailleul）建立独立国家的是拜占庭将军亚历克修斯·科穆宁（Alexius Komnenos）。他试图建立独立国家的地点是安纳托利亚（Asia Minor）。  \n\n**答案**：拜占庭将军亚历克修斯·科穆宁阻止了鲁塞尔·德·巴约勒的计划，该计划试图在安纳托利亚建立独立国家。  \n\n**依据**：证据[2]、[4]、[7]均明确指出：“Roussel de Bailleul even tried to carve out an independent state in Asia Minor... but he was stopped by the Byzantine general Alexius Komnenos.”",
+        "reference": [
+          "Alexius Komnenos",
+          "Alexius Komnenos",
+          "Alexius Komnenos"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均正确指出是Alexius Komnenos阻止了Roussel de Bailleul的计划，且提供了更详细的背景信息。",
+        "tokens": 557478,
+        "steps": 3
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "prediction": "根据收集到的证据，诺曼人在爱尔兰建造的城堡名称包括**Trim Castle**和**Dublin Castle**。",
+        "reference": [
+          "Afranji",
+          "Afranji",
+          "Afranji"
+        ],
+        "score": 0,
+        "reason": "Agent预测的答案（Trim Castle, Dublin Castle）与标准答案（Afranji）完全不符，提供了错误信息。",
+        "tokens": 562324,
+        "steps": 2
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "prediction": "根据提供的证据，带领法兰克人进入幼发拉底河谷的领导者是一位名叫**Oursel**的诺曼人。\n\n**证据支持：**\n- 证据[1]和[4]明确指出：“A Norman named Oursel led a force of 'Franks' into the upper Euphrates valley in northern Syria.”（一位名叫Oursel的诺曼人率领一支“法兰克”军队进入了叙利亚北部幼发拉底河上游河谷）。",
+        "reference": [
+          "Oursel",
+          "Oursel",
+          "Oursel"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均正确指出领导者是Oursel，且提供了更详细的背景信息。",
+        "tokens": 567878,
+        "steps": 2
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "prediction": "根据收集到的证据，诺曼人在安纳托利亚曾与**土耳其势力**结盟。证据[1]和[4]明确指出：“Some Normans joined Turkish forces to aid in the destruction of the Armenians vassal-states of Sassoun and Taron in far eastern Anatolia.”（一些诺曼人加入了土耳其军队，帮助摧毁安纳托利亚远东部萨松和塔龙的亚美尼亚附庸国。）",
+        "reference": [
+          "Turkish forces",
+          "Turkish forces",
+          "Turkish forces"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实‘土耳其势力’与标准答案‘Turkish forces’完全一致，且提供了更详细的背景信息。",
+        "tokens": 573456,
+        "steps": 2
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "prediction": "根据收集到的证据，劳利（Raoulii）家族的起源如下：\n\n1.  **祖先身份**：劳利家族源自一位名叫劳尔（Raoul）的意大利-诺曼人（Italo-Norman）【1】【4】【7】【10】【13】。\n2.  **历史背景**：该家族起源于科穆宁复兴时期（the period of the Comnenian Restoration），当时拜占庭皇帝正在招募西欧的武士。许多拜占庭希腊的家族都具有诺曼雇佣兵起源，劳利家族是其中之一【1】【4】【7】【10】【13】。\n3.  **崛起过程**：作为诺曼雇佣兵，劳尔的子孙在拜占庭希腊崛起并获得地位【1】【4】【7】【10】【13】。证据中没有详细描述具体过程，但明确指出这是当时诺曼雇佣兵融入拜占庭精英阶层的普遍现象。\n\n**总结**：劳利家族起源于科穆宁复兴时期，其祖先是效力于拜占庭帝国的一名意大利-诺曼雇佣兵劳尔，其后代在拜占庭希腊跻身贵族家族之列。",
+        "reference": [
+          "Norman mercenary",
+          "an Italo-Norman named Raoul",
+          "descended from an Italo-Norman named Raoul"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（祖先为意大利-诺曼人劳尔）与标准答案完全一致，且提供了更详细的历史背景，符合评分标准。",
+        "tokens": 591530,
+        "steps": 5
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "prediction": "根据收集到的证据，阿普利亚伯爵的名字是 **Robert Guiscard**。证据多次指出，他因其军事成功而被提升为阿普利亚伯爵[1][4][7]。",
+        "reference": [
+          "Robert Guiscard",
+          "Robert Guiscard",
+          "Robert Guiscard"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致，均为Robert Guiscard。",
+        "tokens": 600388,
+        "steps": 3
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "prediction": "根据提供的证据，都拉佐（Dyrrachium）在以下时间点被诺曼人攻占：\n\n1. **1082年2月**：证据[3]、[6]、[7]、[12]、[15]明确指出，该城的守军抵抗直到**1082年2月**，当时由于定居在那里的威尼斯和阿马尔菲商人的背叛，都拉佐陷落于诺曼人。\n\n2. **1185年**：证据[1]、[5]、[9]、[10]、[13]提到，由于拜占庭高级官员的背叛，一支庞大的诺曼军队在**1185年**入侵并攻占了都拉佐。不过，证据也指出，一段时间后该城又被拜占庭收复（具体收复时间未在证据中说明）。\n\n**结论**：都拉佐曾两次陷落于诺曼人，时间分别是**1082年2月**和**1185年**。",
+        "reference": [
+          "1082",
+          "February 1082",
+          "February 1082"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1082年2月）与标准答案一致，且提供了更详细的背景信息。",
+        "tokens": 619729,
+        "steps": 5
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "prediction": "根据收集到的证据，Robert 的军队人数为 **30,000 人**。  \n证据指出，Robert Guiscard 在 1081 年率领一支 30,000 人的军队登陆阿尔巴尼亚南部海岸（证据 [6]、[7]、[10]）。",
+        "reference": [
+          "30,000",
+          "30,000",
+          "30,000"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致，均为30,000人，且提供了额外细节。",
+        "tokens": 633195,
+        "steps": 4
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "prediction": "根据提供的证据，诺曼人与拜占庭帝国签订和平条约的地点是 **Deabolis**（迪亚波利斯）。该条约是在 **1107年** 签订的，由诺曼人指挥官博希蒙德（Bohemond）在战役失利后与拜占庭人签署。\n\n**证据来源：**  \n证据[1]、[4]和[7]均明确指出：“...forced Bohemond to retreat from his campaign and sign a peace treaty with the Byzantines in the city of Deabolis.” 并说明该事件发生在第一次十字军东征后的几年，即1107年。",
+        "reference": [
+          "Deabolis",
+          "Deabolis",
+          "Deabolis"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心地点信息与标准答案完全一致，均为Deabolis，且提供了更多正确细节。",
+        "tokens": 642378,
+        "steps": 3
+      },
+      {
+        "question": "Who was Robert's son?",
+        "prediction": "根据提供的证据，无法确定任务中“Robert”的具体身份，因此无法回答“Robert's son”是谁。证据中提到了多个名为Robert的人物（如Robert the Bruce、Robert Guiscard、J. Robert Oppenheimer、Robert Dinwiddie），但未提供关于他们儿子的具体信息。",
+        "reference": [
+          "Bohemond",
+          "Bohemond",
+          "Bohemond"
+        ],
+        "score": 0,
+        "reason": "标准答案为'Bohemond'，但Agent预测表示无法确定，未给出正确答案。",
+        "tokens": 659910,
+        "steps": 5
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "prediction": "基于提供的证据，无法确定 Petrela 位于哪条河流附近，因为所有证据中均未提及“Petrela”这一地点。",
+        "reference": [
+          "Deabolis",
+          "the river Deabolis",
+          "Deabolis"
+        ],
+        "score": 0,
+        "reason": "标准答案明确给出河流名称，但Agent预测表示无法确定，信息不足。",
+        "tokens": 683027,
+        "steps": 6
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "prediction": "根据提供的证据，诺曼人攻击都拉基乌姆（Dyrrachium）的时间如下：\n\n- **第一次攻击**：发生在 **1082年2月**。证据[3]、[6]、[9]指出，都拉基乌姆在1082年2月因当地威尼斯和阿马尔菲商人的背叛而落入诺曼人之手。\n- **第二次攻击**：发生在 **1107年**。证据[2]、[5]、[8]提到，诺曼人在1107年由博希蒙德指挥围攻都拉基乌姆，但未成功。\n- **第三次攻击**：发生在 **1185年**。证据[1]、[4]、[7]记载，诺曼人在1185年因拜占庭高级官员的背叛再次入侵都拉基乌姆。\n\n因此，诺曼人攻击都拉基乌姆的主要时间点为1082年、1107年和1185年。",
+        "reference": [
+          "1185",
+          "in 1185",
+          "1185"
+        ],
+        "score": 1,
+        "reason": "Agent预测包含了标准答案中的核心事实（1185年），且提供了更详细的信息。",
+        "tokens": 691768,
+        "steps": 3
+      },
+      {
+        "question": "What was the naval base called?",
+        "prediction": "根据提供的证据，海军基地被称为 **Dyrrachium**。证据[3]、[4]和[7]明确指出，Dyrrachium 是亚得里亚海最重要的海军基地之一。",
+        "reference": [
+          "Dyrrachium",
+          "Dyrrachium",
+          "Dyrrachium"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致，均为Dyrrachium。",
+        "tokens": 699241,
+        "steps": 3
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "prediction": "根据提供的证据，Dyrrachium 位于亚得里亚海沿岸，是亚得里亚海最重要的海军基地之一（证据[1]、[4]、[7]、[10]、[13]）。证据中多次提到与诺曼人、拜占庭人、阿尔巴尼亚人以及威尼斯人的战事和互动，表明该地区位于历史上的拜占庭帝国边境，并与阿尔巴尼亚地区密切相关（例如证据[2]、[3]、[5]、[6]、[8]、[9]、[11]、[12]、[14]、[15]中提及“阿尔巴尼亚军队”、“阿尔巴尼亚官员”和“阿尔巴诺恩通道”）。然而，所提供的证据没有明确说明 Dyrrachium 在现代的具体国家或城市名称。",
+        "reference": [
+          "the Adriatic",
+          "the Adriatic",
+          "Adriatic"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心信息（位于亚得里亚海沿岸）与标准答案（the Adriatic）一致，且提供了更详细的背景信息。",
+        "tokens": 717978,
+        "steps": 5
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "prediction": "根据收集到的证据，Emma 嫁给了英格兰国王埃塞尔雷德二世（King Ethelred II of England）。证据[1]和[4]明确指出：“通过诺曼底公爵理查二世的妹妹 Emma 与英格兰国王埃塞尔雷德二世的婚姻，这种关系最终产生了更紧密的血缘联系。”",
+        "reference": [
+          "King Ethelred II",
+          "Ethelred II",
+          "King Ethelred II"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确指出了Emma嫁给了英格兰国王埃塞尔雷德二世，与标准答案的核心事实完全一致。",
+        "tokens": 722802,
+        "steps": 2
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "prediction": "根据证据[1]和[4]，Emma是诺曼底公爵理查二世（Duke Richard II of Normandy）的妹妹。因此，Emma的兄弟是理查二世。",
+        "reference": [
+          "Duke Richard II",
+          "Duke Richard II",
+          "Duke Richard II"
+        ],
+        "score": 1,
+        "reason": "Agent准确指出了Emma的兄弟是诺曼底公爵理查二世，与标准答案的核心事实一致。",
+        "tokens": 727569,
+        "steps": 2
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "prediction": "根据收集到的证据，埃塞尔雷德（Ethelred）逃往了诺曼底（Normandy）。证据[1]和[4]明确指出：“Because of this, Ethelred fled to Normandy in 1013, when he was forced from his kingdom by Sweyn Forkbeard.”",
+        "reference": [
+          "Normandy",
+          "Normandy",
+          "Normandy"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致，均指出埃塞尔雷德逃往了诺曼底。",
+        "tokens": 732236,
+        "steps": 2
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "prediction": "根据证据[1]和[4]，迫使埃塞尔雷德二世（King Ethelred II）离开王国并逃往诺曼底的人是 **Sweyn Forkbeard**。",
+        "reference": [
+          "Sweyn Forkbeard",
+          "Sweyn Forkbeard",
+          "Sweyn Forkbeard"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致，均正确指出是Sweyn Forkbeard。",
+        "tokens": 737025,
+        "steps": 2
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "prediction": "根据收集到的证据，忏悔者爱德华（Edward the Confessor）的同母异父兄弟是哈萨克努特（Harthacnut）。证据[1]和[4]明确指出，爱德华在1041年应其同母异父兄弟哈萨克努特的邀请，从其父亲的避难处返回。",
+        "reference": [
+          "Harthacnut",
+          "Harthacnut",
+          "Harthacnut"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均正确指出Harthacnut是Edward the Confessor的同母异父兄弟。",
+        "tokens": 741538,
+        "steps": 2
+      },
+      {
+        "question": "When did Edward return?",
+        "prediction": "根据证据[1]和[4]，爱德华（忏悔者）于 **1041年** 返回。",
+        "reference": [
+          "1041",
+          "in 1041",
+          "1041"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1041年）与标准答案完全一致。",
+        "tokens": 745860,
+        "steps": 2
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "prediction": "根据证据[1]和[4]，爱德华（忏悔者）任命了**Jumièges的罗伯特**（Robert of Jumièges）为坎特伯雷大主教。",
+        "reference": [
+          "Robert of Jumièges",
+          "Robert of Jumièges",
+          "Robert of Jumièges"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案完全一致，都指出是Robert of Jumièges。",
+        "tokens": 750518,
+        "steps": 2
+      },
+      {
+        "question": "Where did Harold II die?",
+        "prediction": "根据提供的证据，哈罗德二世（Harold II）在**黑斯廷斯战役**（Battle of Hastings）中死亡。证据[1]、[4]和[7]均明确指出：“In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings.”",
+        "reference": [
+          "Battle of Hastings",
+          "the Battle of Hastings",
+          "at the Battle of Hastings"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（Battle of Hastings）与标准答案完全一致。",
+        "tokens": 758691,
+        "steps": 3
+      },
+      {
+        "question": "Who killed Harold II?",
+        "prediction": "根据提供的证据，哈罗德二世（Harold II）是在**1066年**的**黑斯廷斯战役**（Battle of Hastings）中，被**诺曼底公爵威廉二世**（即征服者威廉）率领的**入侵的诺曼人军队**杀死。证据中多次明确指出：“Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings”（来源：[1], [4], [7], [10], [13]）。证据中没有具体描述其死亡方式或原因。",
+        "reference": [
+          "William II",
+          "Duke William II",
+          "Duke William II"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（诺曼底公爵威廉二世在黑斯廷斯战役中杀死了哈罗德二世）与标准答案（William II）一致，且提供了更详细的背景信息。",
+        "tokens": 776812,
+        "steps": 5
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "prediction": "根据提供的证据，黑斯廷斯战役发生于 **1066年**。\n\n证据[1]、[2]、[4]和[5]均明确指出，诺曼征服英格兰及黑斯廷斯战役发生在1066年。",
+        "reference": [
+          "1066",
+          "In 1066",
+          "1066"
+        ],
+        "score": 1,
+        "reason": "Agent预测准确给出了核心事实1066年，与标准答案一致。",
+        "tokens": 781575,
+        "steps": 2
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "prediction": "根据提供的证据，诺曼征服（1066年）前英格兰的统治阶层是盎格鲁-撒克逊人。\n\n证据[1]和[4]明确指出：“入侵的诺曼人及其后代取代了盎格鲁-撒克逊人，成为英格兰的统治阶级。” 这直接表明在诺曼人到来之前，盎格鲁-撒克逊人是统治阶层。",
+        "reference": [
+          "Anglo-Saxons",
+          "the Anglo-Saxons",
+          "Anglo-Saxons"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，均指出盎格鲁-撒克逊人是诺曼人之前的统治阶层。",
+        "tokens": 785998,
+        "steps": 2
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "prediction": "根据收集到的证据，安格鲁-诺曼语（Anglo-Norman language）的最终形式是被吸收进了其臣民的盎格鲁-撒克逊语（即古英语）中，并对其产生影响，共同促成了中古英语的发展。中古英语后来又演变成了现代英语。\n\n**引用证据：**  \n证据[1]和[4]明确指出：“The Anglo-Norman language was eventually absorbed into the Anglo-Saxon language of their subjects (see Old English) and influenced it, helping ... in the development of Middle English. It in turn evolved into Modern English.”",
+        "reference": [
+          "Modern English",
+          "Modern English",
+          "Modern English"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（最终演变为现代英语）与标准答案一致，且提供了更详细的过程描述。",
+        "tokens": 790491,
+        "steps": 2
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "prediction": "根据收集到的证据，诺曼人入侵班诺湾（Bannow Bay）发生在 **1169 年**。证据[3]和[4]明确指出：“The Normans had a profound effect on Irish culture and history after their invasion at Bannow Bay in 1169.”",
+        "reference": [
+          "1169",
+          "1169",
+          "1169"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（1169年）与标准答案完全一致。",
+        "tokens": 795502,
+        "steps": 2
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "prediction": "根据提供的证据，没有直接提及诺曼人在1169年入侵的具体国家。证据中主要描述了诺曼人在10-11世纪的活动，如征服英格兰（1066年）、在南意大利建立西西里王国等，但未包含1169年的入侵事件。因此，基于现有证据，无法回答该问题。",
+        "reference": [
+          "Ireland",
+          "Ireland",
+          "Ireland"
+        ],
+        "score": 0,
+        "reason": "标准答案为爱尔兰，但Agent预测表示无法回答，未提供正确信息。",
+        "tokens": 827587,
+        "steps": 7
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "prediction": "根据提供的证据，诺曼人在爱尔兰主要与**爱尔兰本土文化（Gaelic Irish culture）**相结合。\n\n**支持证据如下：**\n\n*   证据[1]、[4]、[7]、[10]明确指出，诺曼人入侵爱尔兰后，虽然最初保持独特的文化，但随着时间的推移，他们被爱尔兰文化所吸纳，以至于变得“比爱尔兰人自己更爱尔兰”。两种文化相互交融，借鉴彼此的语言、文化和观念。\n*   证据[1]、[4]、[7]、[10]提到，诺曼人主要定居在爱尔兰东部（后来被称为“the Pale”），并与当地文化相互混合。\n*   其他证据（如[2]、[5]、[11]、[12]）描述了诺曼人在法国的起源和文化形成，但这与他们在爱尔兰接触的文化无关。证据[6]和[8]关于胡格诺派的信息与诺曼人问题无关。证据[3]和[9]涉及诺曼人在法国形成前的历史，也与爱尔兰问题无关。\n\n**结论：** 在爱尔兰，诺曼人结合并最终融入的是**爱尔兰本土文化**。",
+        "reference": [
+          "Irish",
+          "Irish",
+          "Irish"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实（爱尔兰本土文化）与标准答案（Irish）一致，且提供了更详细的解释。",
+        "tokens": 842244,
+        "steps": 4
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "prediction": "根据收集到的证据，Margaret 的兄弟是 Edgar Atheling。证据[1]和[4]明确指出：“King Malcolm III of Scotland married Edgar's sister Margaret”，即苏格兰国王马尔科姆三世娶了 Edgar 的姐妹 Margaret。因此，Margaret 是 Edgar 的姐妹，她的兄弟就是 Edgar Atheling。",
+        "reference": [
+          "Edgar",
+          "Edgar",
+          "Edgar Atheling"
+        ],
+        "score": 1,
+        "reason": "Agent预测的核心事实与标准答案一致，正确指出Margaret的兄弟是Edgar Atheling。",
+        "tokens": 846617,
+        "steps": 2
+      }
+    ]
+  }
+}
